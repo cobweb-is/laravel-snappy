@@ -158,21 +158,22 @@ class PdfWrapper{
     }
 
     /**
-     * Save the PDF to a file
+     * Save the PDF to a file. (Now it can Overwrite a PDF file)
      *
      * @param $filename
+     * @param $overwrite
      * @return static
      */
-    public function save($filename)
+    public function save($filename, $overwrite = false)
     {
 
         if ($this->html)
         {
-            $this->snappy->generateFromHtml($this->html, $filename, $this->options);
+            $this->snappy->generateFromHtml($this->html, $filename, $this->options, $overwrite);
         }
         elseif ($this->file)
         {
-            $this->snappy->generate($this->file, $filename, $this->options);
+            $this->snappy->generate($this->file, $filename, $this->options, $overwrite);
         }
 
         return $this;
