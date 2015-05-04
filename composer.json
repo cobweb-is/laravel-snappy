@@ -1,5 +1,5 @@
 {
-    "name": "barryvdh/laravel-snappy",
+    "name": "cobweb-is/laravel-snappy",
     "description": "Snappy PDF/Image for Laravel 4",
     "keywords": ["laravel","snappy", "pdf", "image", "wkhtmltopdf", "wkhtmltoimage"],
     "license": "MIT",
