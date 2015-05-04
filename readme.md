@@ -8,9 +8,9 @@ You need to have wkhtmltopdf/wkhtmltoimage installed. You can download wkhtmltop
 
 The package provides $app['snappy.pdf'] and $app['snappy.image']. You have to set the binary location in the config file. First publish the config file:
 
-    php artisan config:publish barryvdh/laravel-snappy
+    php artisan config:publish cobweb-is/laravel-snappy
 
-and then adapt the "binary" line in the published config file (afer publishing should be present in: app/config/packages/barryvdh/laravel-snappy/config.php).
+and then adapt the "binary" line in the published config file (afer publishing should be present in: app/config/packages/cobweb-is/laravel-snappy/config.php).
 
 For example, when loaded with composer, the line should look like:
 
@@ -72,7 +72,7 @@ If you need the output as a string, you can get the rendered PDF with the output
 
 You can  publish the config-file to change some settings (default paper etc).
 
-    php artisan config:publish barryvdh/laravel-snappy
+    php artisan config:publish cobweb-is/laravel-snappy
 
 See the [wkhtmltopdf manual](http://wkhtmltopdf.org/usage/wkhtmltopdf.txt) for more information/settings.
 
