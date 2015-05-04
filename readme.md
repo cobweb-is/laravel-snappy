@@ -20,7 +20,7 @@ In addition to the Snappy classes, it provides a wrapper, similar to https://git
 
 Require this package in your composer.json and update composer.
 
-    "barryvdh/laravel-snappy": "0.1.x"
+    "cobweb-is/laravel-snappy": "0.1.x"
 
 After updating composer, add the ServiceProvider to the providers array in app/config/app.php
 
