@@ -18,7 +18,7 @@ class ServiceProvider extends BaseServiceProvider {
 	 */
 	public function register()
 	{
-        $this->package('barryvdh/laravel-snappy');
+        $this->package('cobweb-is/laravel-snappy');
 
         if($this->app['config']->get('laravel-snappy::config.pdf.enabled')){
             $this->app['snappy.pdf'] = $this->app->share(function($app)
