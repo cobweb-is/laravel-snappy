@@ -83,9 +83,9 @@ class PdfWrapper{
         return $this;
     }
 
-    public function setOption($name, $value)
+    public function setOption($name, $value, $force = false)
     {
-        $this->snappy->setOption($name, $value);
+        $this->snappy->setOption($name, $value, $force);
         return $this;
     }
 
