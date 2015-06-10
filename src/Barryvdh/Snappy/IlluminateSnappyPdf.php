@@ -229,6 +229,10 @@ class IlluminateSnappyPdf extends Pdf {
             'viewport-size'                => null,
             'redirect-delay'               => null, // old v0.9
             'landscape-selector'           => null,
+			'header-load-once'             => null,
+			'footer-load-once'             => null,
+			'footer-page-no-selector'      => null,
+			'first-page-header'            => null,
 			
         ));
     }   
