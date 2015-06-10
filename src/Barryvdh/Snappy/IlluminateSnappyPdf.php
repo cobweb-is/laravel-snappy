@@ -231,6 +231,7 @@ class IlluminateSnappyPdf extends Pdf {
             'landscape-selector'           => null,
 			'header-load-once'             => null,
 			'footer-load-once'             => null,
+			'header-page-no-selector'      => null,
 			'footer-page-no-selector'      => null,
 			'first-page-header'            => null,
 			
